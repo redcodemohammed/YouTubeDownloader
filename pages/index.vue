@@ -6,6 +6,10 @@ const loading = ref(false)
 const showVideoWithAudio = ref(false)
 const errorMessage = ref<string | undefined>('')
 
+useHead({
+  title: 'YouTube Downloader'
+})
+
 const results = ref<DownloadResponse | undefined>()
 
 async function downloadVideo() {
