@@ -1,8 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 const formsPlugin = require('@tailwindcss/forms')
 const scrollBarPlugin = require('tailwind-scrollbar')
+const flowbitePlugin = require('flowbite')
 module.exports = {
-  content: ['./components/**/*.{js,vue,ts}', './layouts/**/*.vue', './pages/**/*.vue', './plugins/**/*.{js,ts}', './nuxt.config.{js,ts}', './app.vue'],
+  content: ['./components/**/*.{js,vue,ts}', './node_modules/flowbite.{js,ts}', './layouts/**/*.vue', './pages/**/*.vue', './plugins/**/*.{js,ts}', './nuxt.config.{js,ts}', './app.vue'],
   theme: {
     extend: {
       fontFamily: {
@@ -11,5 +12,5 @@ module.exports = {
       }
     }
   },
-  plugins: [formsPlugin({ strategy: 'class' }), scrollBarPlugin]
+  plugins: [formsPlugin({ strategy: 'class' }), scrollBarPlugin, flowbitePlugin]
 }

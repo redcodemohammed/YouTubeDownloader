@@ -17,7 +17,8 @@ export default defineNuxtConfig({
     ],
     '@nuxtjs/robots',
     '@vueuse/nuxt',
-    'nuxt-headlessui'
+    'nuxt-headlessui',
+    '@vueuse/nuxt'
   ],
   headlessui: {
     prefix: 'Headless'
@@ -26,7 +27,6 @@ export default defineNuxtConfig({
     configPath: 'tailwind.config.js'
   },
   i18n: {
-    lazy: false,
     langDir: 'locales',
     locales: [
       { code: 'ar', file: 'ar.json' },

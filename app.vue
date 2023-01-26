@@ -8,7 +8,7 @@ settingsStore.setLocale(LOCALE.Ar)
 <template>
   <main
     :data-theme="settingsStore.theme"
-    class="select-none min-h-screen"
+    class="select-none"
     :class="{
       'font-ibm-plex-sans-arabic': settingsStore.locale === LOCALE.Ar,
       'font-poppins': settingsStore.locale === LOCALE.En

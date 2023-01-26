@@ -21,7 +21,11 @@
     "@nuxtjs/robots": "^3.0.0",
     "@pinia/nuxt": "^0.4.6",
     "@tailwindcss/forms": "^0.5.3",
+    "ffmpeg-static": "^5.1.0",
+    "flowbite": "^1.6.3",
     "pinia": "^2.0.29",
-    "tailwind-scrollbar": "^2.1.0"
+    "tailwind-scrollbar": "^2.1.0",
+    "youtube-dl-exec": "^2.1.11",
+    "ytdl-core": "^4.11.2"
   }
 }

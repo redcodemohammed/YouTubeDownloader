@@ -1,1 +1,9 @@
-{}
+{
+  "home": {
+    "hero": {
+      "main-text": "Download any YouTube video right now.",
+      "download-link": "Enter video link to download",
+      "download": "Download"
+    }
+  }
+}
